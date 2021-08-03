@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>parallax</title>
+    <style>
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 1.8em;
+            color: #666;
+        }
+
+        .img1 {
+            background-image: url('img/city1.jpg');
+            min-height: 100%;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .img2 {
+            background-image: url('img/city2.jfif');
+            min-height: 100%;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .img3 {
+            background-image: url('img/city3.jfif');
+            min-height: 100%;
+            background-size: cover;
+            background-repeat: no-repeat;
+
+        }
+
+        .img1,
+        .img2,
+        .img3 {
+         
+            opacity: 0.70;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        .sec1 {
+            text-align: center;
+            padding: 50px 80px;
+            text-align: justify;
+            font-size: 20px;
+
+        }
+
+        .sec2 {
+            text-align: center;
+            padding: 50px 80px;
+            text-align: justify;
+            font-size: 20px;
+            background-color: skyblue;
+            color: #000;
+        }
+
+        .sec3 {
+            text-align: center;
+            padding: 50px 80px;
+            text-align: justify;
+            font-size: 20px;
+            background-color: silver;
+            color: #000;
+        }
+
+        .sec1 {
+            background-color: #9b8e8e;
+            color: white;
+        }
+
+        .spanb {
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            text-align: center;
+            color: #000;
+            font-size: 27px;
+            letter-spacing: 8px;
+            text-transform: uppercase;
+        }
+
+        @media screen and (max-width:568px) {
+
+            .img1,
+            .img2,
+            .img3 {
+                background-attachment: fixed;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="img1">
+
+        <div class="spanb">
+            NEW YORK CITY
+        </div>
+    </div>
+
+    <div class="sec1 ">
+        <p>New York City comprises 5 boroughs sitting where the Hudson River meets the Atlantic Ocean. At its core is
+            Manhattan, a densely populated borough that’s among the world’s major commercial, financial and cultural
+            centers. Its iconic sites include skyscrapers such as the Empire State Building and sprawling Central Park.
+            Broadway theater is staged in neon-lit Times Square. </p>
+    </div>
+
+
+
+
+    <div class="img2">
+
+        <div class="spanb">
+            NEW YORK CITY
+        </div>
+
+    </div>
+    <div class="sec2">
+        <p>New York has a diverse geography. The southern part of the state is in the Atlantic coastal plain and
+            includes Long Island and several smaller associated islands, as well as New York City and the lower Hudson
+            River Valley. The larger Upstate New York region comprises several ranges of the wider Appalachian
+            Mountains, and the Adirondack Mountains in the northeastern lobe of the state. The north–south Hudson River
+            Valley and the east–west
+        </p>
+    </div>
+
+
+    
+    <div class="img3">
+
+        <div class="spanb">
+            NEW YORK CITY
+        </div>
+
+    </div>
+    <div class="sec3 ">
+        <p>
+            New York had been inhabited by tribes of Algonquian and the Iroquois confederacy Native Americans for
+            several hundred years by the time the earliest Europeans came to New York.French colonists and Jesuit
+            missionaries arrived southward from Montreal for trade and proselytizing. In 1609, the region was visited by
+            Henry Hudson sailing for the Dutch East India Company.The Dutch built Fort Nassau in 1614 at the confluence
+            of the Hudson and Mohawk rivers, where the present-day capital of Albany later developed.
+        </p>
+    </div>
+
+</body>
+
+</html>
